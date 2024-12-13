@@ -5,8 +5,13 @@
   "description": "Let Claude think. Makes Claude's thinking process expandable and collapsible.",
   "content_scripts": [
     {
-      "matches": ["https://*.claude.ai/*"],
-      "js": ["content.js"]
+      "matches": [
+        "https://*.claude.ai/*",
+        "https://*.fuclaude.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ]
 }

@@ -2,7 +2,8 @@
   "name": "thinking-claude-root",
   "private": true,
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "push": "deploy.py --push-src"
   },
   "devDependencies": {
     "husky": "^9.1.7"
